@@ -15,7 +15,7 @@ export default function Home() {
   useBotProtection()
 
   const handleCallClick = () => {
-    const phoneNumber = process.env.NEXT_PUBLIC_PHONE_NUMBER || '05320520950'
+    const phoneNumber = process.env.NEXT_PUBLIC_PHONE_NUMBER || '05335634047'
     window.location.href = `tel:${phoneNumber}`
     
     // Track conversion
