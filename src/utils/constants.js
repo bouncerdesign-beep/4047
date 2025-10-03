@@ -3,7 +3,7 @@ export const CONTACT_INFO = {
     phoneFormatted: '0533 563 40 47',
     whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '905335634047',
     email: process.env.NEXT_PUBLIC_EMAIL || 'yardim@yolyardim.com',
-    address: 'Ankara, Türkiye',
+    address: 'İstanbul, Türkiye',
   }
   
   export const SERVICES = [
@@ -90,8 +90,8 @@ export const CONTACT_INFO = {
     email: CONTACT_INFO.email,
     address: {
       '@type': 'PostalAddress',
-      addressLocality: 'Ankara',
-      addressRegion: 'Ankara',
+      addressLocality: 'İstanbul',
+      addressRegion: 'İstanbul',
       addressCountry: 'TR'
     },
     geo: {
