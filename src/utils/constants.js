@@ -68,7 +68,7 @@ export const CONTACT_INFO = {
     {
       icon: '📍',
       title: 'Tüm Bölgelere Hizmet',
-      description: 'Ankara ve çevre illerde hizmet veriyoruz'
+      description: 'İstanbul ve çevre illerde hizmet veriyoruz'
     }
   ]
   
