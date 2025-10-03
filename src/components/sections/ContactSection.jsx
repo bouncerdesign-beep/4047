@@ -72,7 +72,7 @@ export default function ContactSection({ onCallClick }) {
               <div>
                 <h3 className="font-bold text-lg mb-1">Hizmet Bölgesi</h3>
                 <p className="text-gray-600">
-                  Ankara ve çevre iller<br />
+                  İstanbul ve çevre iller<br />
                   Mobil hizmet ile her yerde
                 </p>
               </div>
