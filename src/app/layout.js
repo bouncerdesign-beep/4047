@@ -15,10 +15,10 @@ export const metadata = {
     'akü takviyesi',
     'oto lastik',
     '7/24 lastik servisi',
-    'Ankara lastikçi',
+    'istanbul lastikçi',
     'mobil oto servis',
-    'lastik patlaması',
-    'yol kenarı yardım'
+    'lastik tamircisi',
+    'en yakın lastikçi'
   ],
   authors: [{ name: '7/24 Mobil Lastikçi' }],
   creator: '7/24 Mobil Lastikçi',
