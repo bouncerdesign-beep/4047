@@ -1,5 +1,5 @@
 // Google Analytics and Google Ads tracking utilities
-
+$gtmId = "GTM-5WZJXT2F";
 export const initGTM = (gtmId) => {
     if (!gtmId || typeof window === 'undefined') return
   
