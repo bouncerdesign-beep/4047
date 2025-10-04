@@ -8,6 +8,7 @@ import ServicesSection from '@/components/sections/ServicesSection'
 import CTASection from '@/components/sections/CTASection'
 import AboutSection from '@/components/sections/AboutSection'
 import ContactSection from '@/components/sections/ContactSection'
+import analytics from '@/utils/analytics'
 import useBotProtection from '@/hooks/useBotProtection'
 import { trackConversion, trackEvent } from '@/utils/analytics'
 
