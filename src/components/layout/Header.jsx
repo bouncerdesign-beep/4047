@@ -15,6 +15,14 @@ export default function Header({ onCallClick }) {
     trackWhatsAppClick()
   }
 
+        <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5WZJXT2F');</script>
+<!-- End Google Tag Manager -->
+    
   return (
     <header className="bg-gradient-to-r from-red-600 to-red-700 text-white sticky top-0 z-50 shadow-lg">
       <div className="container">
@@ -140,13 +148,6 @@ export default function Header({ onCallClick }) {
           </nav>
         )}
       </div>
-      <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5WZJXT2F');</script>
-<!-- End Google Tag Manager -->
     </header>
   )
 }
