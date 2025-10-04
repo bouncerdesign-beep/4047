@@ -6,13 +6,13 @@ import { initGTM, initGA } from '@/utils/analytics'
 export default function Analytics() {
   useEffect(() => {
     // Initialize Google Tag Manager
-    const gtmId = process.env.NEXT_PUBLIC_GTM_ID || 'GTM-5WZJXT2F',
+    const gtmId = process.env.NEXT_PUBLIC_GTM_ID
     if (gtmId) {
       initGTM(gtmId)
     }
 
     // Initialize Google Analytics
-    const gaId = process.env.NEXT_PUBLIC_GA_ID || 'GTM-5WZJXT2F',
+    const gaId = process.env.NEXT_PUBLIC_GA_ID
     if (gaId) {
       initGA(gaId)
     }
