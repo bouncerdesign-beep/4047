@@ -75,12 +75,7 @@ export default function RootLayout({ children }) {
       <head>
       </head>
       <body className={inter.className}>
-    
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WZJXT2F"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-  
+     
         <Analytics />
         <JsonLd />
         {children}
