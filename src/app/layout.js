@@ -11,12 +11,12 @@ export const metadata = {
   keywords: [
     'mobil lastikçi',
     'yol yardım',
-    'acil lastik değişimi',
-    'akü takviyesi',
-    'oto lastik',
-    '7/24 lastik servisi',
+    'acil lastik tamiri',
+    'akü takviye',
+    'lastikçi',
+    '7/24 lastikçi',
     'istanbul lastikçi',
-    'mobil oto servis',
+    'oto lastikçi',
     'lastik tamircisi',
     'en yakın lastikçi'
   ],
