@@ -1,7 +1,7 @@
 export const CONTACT_INFO = {
-    phone: process.env.NEXT_PUBLIC_PHONE_NUMBER || '05424697919',
-    phoneFormatted: '0542 469 79 19',
-    whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '905424697919',
+    phone: process.env.NEXT_PUBLIC_PHONE_NUMBER || '05335634047',
+    phoneFormatted: '0533 563 40 47',
+    whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '905335634047',
     email: process.env.NEXT_PUBLIC_EMAIL || 'yardim@yolyardim.com',
     address: 'İstanbul, Türkiye',
   }
