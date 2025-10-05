@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: '7/24 Mobil Lastikçi | Acil Yol Yardım Hizmeti',
-  description: 'İstanbul\'da 7/24 mobil lastik değişimi, akü takviyesi ve yol yardım hizmeti. Hızlı, güvenilir ve profesyonel hizmet. Hemen arayın: 0533 563 40 47',
+  description: 'İstanbul\'da 7/24 mobil lastik değişimi, akü takviyesi ve yol yardım hizmeti. Hızlı, güvenilir ve profesyonel hizmet. Hemen arayın: 0542 469 79 19',
   keywords: [
     'mobil lastikçi',
     'yol yardım',
