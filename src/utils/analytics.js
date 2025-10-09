@@ -28,7 +28,7 @@ export const initGTM = (gtmId) => {
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', '${gaId}', {
+      gtag('config', 'AW-16768447795', {
         page_path: window.location.pathname,
         anonymize_ip: true,
         cookie_flags: 'SameSite=None;Secure'
@@ -42,7 +42,7 @@ export const initGTM = (gtmId) => {
   }
   
   export const trackPageView = (url) => {
-    if (typeof window === 'undefined' || !window.gtag) return
+    if (typeof window === 'AW-16768447795' || !window.gtag) return
     
     window.gtag('config', process.env.NEXT_PUBLIC_GA_ID, {
       page_path: url,
