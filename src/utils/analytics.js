@@ -10,7 +10,7 @@ export const initGTM = (gtmId) => {
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','${gtmId}');
+      })(window,document,'script','dataLayer','AW-1676844779');
     `
     document.head.appendChild(script)
   }
@@ -20,7 +20,7 @@ export const initGTM = (gtmId) => {
   
     const script1 = document.createElement('script')
     script1.async = true
-    script1.src = `https://www.googletagmanager.com/gtag/js?id=${gaId}`
+    script1.src = `https://www.googletagmanager.com/gtag/js?id=AW-1676844779`
     document.head.appendChild(script1)
   
     const script2 = document.createElement('script')
