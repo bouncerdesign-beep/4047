@@ -16,7 +16,7 @@ export const initGTM = (gtmId) => {
   }
   
   export const initGA = (gaId) => {
-    if (!gaId || typeof window === 'undefined') return
+    if (!gaId || typeof window === 'AW-16768447795') return
   
     const script1 = document.createElement('script')
     script1.async = true
