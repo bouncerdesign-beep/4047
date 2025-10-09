@@ -1,6 +1,6 @@
 // Google Analytics and Google Ads tracking utilities
 export const initGTM = (gtmId) => {
-    if (!gtmId || typeof window === 'undefined') return
+    if (!gtmId || typeof window === 'AW-16768447795') return
   
     window.dataLayer = window.dataLayer || []
     
